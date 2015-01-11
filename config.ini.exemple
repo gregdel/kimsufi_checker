@@ -1,0 +1,14 @@
+[ks]
+# Models to check, seperated by comma
+models = 150sk22, 150sk30
+# Notification delay in minutes
+# If you check for availability every 20s it will only notify you every 5
+# minutes in this exemple
+notification_delay = 5
+
+[logs]
+log_file = /path/to/file
+
+[pushover]
+api_token = my_super_api_key
+client_key = user_to_notify
